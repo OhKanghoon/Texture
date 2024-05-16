@@ -15,16 +15,16 @@
 #import <FBSnapshotTestCase/FBSnapshotTestController.h>
 #pragma clang diagnostic pop
 
-#import <AsyncDisplayKit/ASTextKitAttributes.h>
+#import "ASTextKitAttributes.h"
 
 #if AS_ENABLE_TEXTNODE
 
-#import <AsyncDisplayKit/ASTextKitComponents.h>
-#import <AsyncDisplayKit/ASTextKitEntityAttribute.h>
-#import <AsyncDisplayKit/ASTextKitRenderer.h>
-#import <AsyncDisplayKit/ASTextKitRenderer+Positioning.h>
+#import "ASTextKitComponents.h"
+#import "ASTextKitEntityAttribute.h"
+#import "ASTextKitRenderer.h"
+#import "ASTextKitRenderer+Positioning.h"
 
-#import <AsyncDisplayKit/ASInternalHelpers.h>
+#import "ASInternalHelpers.h"
 
 @interface ASTextKitTests : XCTestCase
 

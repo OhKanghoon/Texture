@@ -7,8 +7,8 @@
 //
 
 #import "ASLayoutSpecSnapshotTestsHelper.h"
-#import <AsyncDisplayKit/ASCornerLayoutSpec.h>
-#import <AsyncDisplayKit/ASBackgroundLayoutSpec.h>
+#import "ASCornerLayoutSpec.h"
+#import "ASBackgroundLayoutSpec.h"
 
 typedef NS_ENUM(NSInteger, ASCornerLayoutSpecSnapshotTestsOffsetOption) {
   ASCornerLayoutSpecSnapshotTestsOffsetOptionCenter,

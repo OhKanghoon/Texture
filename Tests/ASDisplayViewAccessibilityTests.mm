@@ -12,16 +12,16 @@
 
 #import <XCTest/XCTest.h>
 
-#import <AsyncDisplayKit/_ASDisplayView.h>
-#import <AsyncDisplayKit/_ASDisplayViewAccessiblity.h>
-#import <AsyncDisplayKit/ASButtonNode.h>
-#import <AsyncDisplayKit/ASDisplayNode.h>
-#import <AsyncDisplayKit/ASDisplayNode+Beta.h>
-#import <AsyncDisplayKit/ASTextNode.h>
-#import <AsyncDisplayKit/ASConfiguration.h>
-#import <AsyncDisplayKit/ASConfigurationInternal.h>
-#import <AsyncDisplayKit/ASScrollNode.h>
-#import <AsyncDisplayKit/ASDKViewController.h>
+#import "_ASDisplayView.h"
+#import "_ASDisplayViewAccessiblity.h"
+#import "ASButtonNode.h"
+#import "ASDisplayNode.h"
+#import "ASDisplayNode+Beta.h"
+#import "ASTextNode.h"
+#import "ASConfiguration.h"
+#import "ASConfigurationInternal.h"
+#import "ASScrollNode.h"
+#import "ASDKViewController.h"
 #import <OCMock/OCMock.h>
 #import "ASDisplayNodeTestsHelper.h"
 

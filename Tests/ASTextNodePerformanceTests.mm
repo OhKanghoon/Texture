@@ -8,10 +8,10 @@
 
 #import <XCTest/XCTest.h>
 #import "ASPerformanceTestContext.h"
-#import <AsyncDisplayKit/ASTextNode.h>
-#import <AsyncDisplayKit/ASLayout.h>
-#import <AsyncDisplayKit/ASInternalHelpers.h>
-#import <AsyncDisplayKit/CoreGraphics+ASConvenience.h>
+#import "ASTextNode.h"
+#import "ASLayout.h"
+#import "ASInternalHelpers.h"
+#import "CoreGraphics+ASConvenience.h"
 
 #import "ASXCTExtensions.h"
 

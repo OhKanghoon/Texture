@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <AsyncDisplayKit/ASCollections.h>
+#import "ASCollections.h"
 
 @interface ASCollectionsTests : XCTestCase
 

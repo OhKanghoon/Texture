@@ -8,10 +8,10 @@
 //
 
 #import "ASSnapshotTestCase.h"
-#import <AsyncDisplayKit/ASAvailability.h>
-#import <AsyncDisplayKit/ASDisplayNode+Beta.h>
-#import <AsyncDisplayKit/ASDisplayNodeExtras.h>
-#import <AsyncDisplayKit/ASDisplayNode+Subclasses.h>
+#import "ASAvailability.h"
+#import "ASDisplayNode+Beta.h"
+#import "ASDisplayNodeExtras.h"
+#import "ASDisplayNode+Subclasses.h"
 
 NSOrderedSet *ASSnapshotTestCaseDefaultSuffixes(void)
 {

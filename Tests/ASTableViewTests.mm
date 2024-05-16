@@ -9,14 +9,14 @@
 
 #import <XCTest/XCTest.h>
 
-#import <AsyncDisplayKit/AsyncDisplayKit.h>
-#import <AsyncDisplayKit/ASTableView.h>
-#import <AsyncDisplayKit/ASTableViewInternal.h>
-#import <AsyncDisplayKit/ASDisplayNode+Subclasses.h>
-#import <AsyncDisplayKit/ASCellNode.h>
-#import <AsyncDisplayKit/ASTableNode.h>
-#import <AsyncDisplayKit/ASTableView+Undeprecated.h>
-#import <AsyncDisplayKit/ASInternalHelpers.h>
+#import "AsyncDisplayKit.h"
+#import "ASTableView.h"
+#import "ASTableViewInternal.h"
+#import "ASDisplayNode+Subclasses.h"
+#import "ASCellNode.h"
+#import "ASTableNode.h"
+#import "ASTableView+Undeprecated.h"
+#import "ASInternalHelpers.h"
 
 #import "ASTestCase.h"
 #import "ASXCTExtensions.h"

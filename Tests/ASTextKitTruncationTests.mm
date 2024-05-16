@@ -10,11 +10,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-#import <AsyncDisplayKit/ASTextKitContext.h>
+#import "ASTextKitContext.h"
 
 #if AS_ENABLE_TEXTNODE
 
-#import <AsyncDisplayKit/ASTextKitTailTruncater.h>
+#import "ASTextKitTailTruncater.h"
 
 @interface ASTextKitTruncationTests : XCTestCase
 

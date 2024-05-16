@@ -8,14 +8,14 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <AsyncDisplayKit/AsyncDisplayKit.h>
-#import <AsyncDisplayKit/ASCollectionViewFlowLayoutInspector.h>
-#import <AsyncDisplayKit/ASDataController.h>
-#import <AsyncDisplayKit/ASSectionContext.h>
+#import "AsyncDisplayKit.h"
+#import "ASCollectionViewFlowLayoutInspector.h"
+#import "ASDataController.h"
+#import "ASSectionContext.h"
 #import <vector>
 #import <OCMock/OCMock.h>
-#import <AsyncDisplayKit/ASCollectionView+Undeprecated.h>
-#import <AsyncDisplayKit/ASDisplayNode+FrameworkPrivate.h>
+#import "ASCollectionView+Undeprecated.h"
+#import "ASDisplayNode+FrameworkPrivate.h"
 
 #import "ASDisplayNodeTestsHelper.h"
 #import "ASTestCase.h"

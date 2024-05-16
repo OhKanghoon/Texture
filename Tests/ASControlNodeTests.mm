@@ -7,7 +7,7 @@
 //  Licensed under Apache 2.0: http://www.apache.org/licenses/LICENSE-2.0
 //
 
-#import <AsyncDisplayKit/ASControlNode.h>
+#import "ASControlNode.h"
 
 #import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>

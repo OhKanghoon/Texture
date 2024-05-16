@@ -8,8 +8,8 @@
 //
 
 #import "ASThrashUtility.h"
-#import <AsyncDisplayKit/ASTableViewInternal.h>
-#import <AsyncDisplayKit/ASTableView+Undeprecated.h>
+#import "ASTableViewInternal.h"
+#import "ASTableView+Undeprecated.h"
 
 static NSString *ASThrashArrayDescription(NSArray *array)
 {

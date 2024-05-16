@@ -7,8 +7,8 @@
 //  Licensed under Apache 2.0: http://www.apache.org/licenses/LICENSE-2.0
 //
 
-#import <AsyncDisplayKit/ASBasicImageDownloader.h>
-#import <AsyncDisplayKit/ASBasicImageDownloaderInternal.h>
+#import "ASBasicImageDownloader.h"
+#import "ASBasicImageDownloaderInternal.h"
 
 #import <OCMock/OCMock.h>
 

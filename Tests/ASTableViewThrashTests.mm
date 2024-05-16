@@ -8,9 +8,9 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <AsyncDisplayKit/AsyncDisplayKit.h>
-#import <AsyncDisplayKit/ASTableViewInternal.h>
-#import <AsyncDisplayKit/ASTableView+Undeprecated.h>
+#import "AsyncDisplayKit.h"
+#import "ASTableViewInternal.h"
+#import "ASTableView+Undeprecated.h"
 #import <stdatomic.h>
 
 #import "ASTestCase.h"

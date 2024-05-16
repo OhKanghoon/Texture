@@ -9,7 +9,7 @@
 
 #import <XCTest/XCTest.h>
 #import "ASXCTExtensions.h"
-#import <AsyncDisplayKit/ASLayoutElement.h>
+#import "ASLayoutElement.h"
 
 #pragma mark - ASLayoutElementStyleTestsDelegate
 

@@ -8,7 +8,7 @@
 //
 
 #import "ASSnapshotTestCase.h"
-#import <AsyncDisplayKit/ASDisplayNode+Subclasses.h>
+#import "ASDisplayNode+Subclasses.h"
 
 @class ASLayoutSpec;
 

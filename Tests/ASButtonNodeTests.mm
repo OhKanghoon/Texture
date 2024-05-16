@@ -8,9 +8,9 @@
 
 #import <XCTest/XCTest.h>
 
-#import <AsyncDisplayKit/ASButtonNode.h>
-#import <AsyncDisplayKit/ASDisplayNode+Beta.h>
-#import <AsyncDisplayKit/ASTextNode.h>
+#import "ASButtonNode.h"
+#import "ASDisplayNode+Beta.h"
+#import "ASTextNode.h"
 
 @interface ASButtonNodeTests : XCTestCase
 @end

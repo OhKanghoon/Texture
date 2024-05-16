@@ -12,7 +12,7 @@
 // Not strictly necessary, but convenient
 #import <OCMock/OCMock.h>
 
-#import <AsyncDisplayKit/AsyncDisplayKit.h>
+#import "AsyncDisplayKit.h"
 
 #import "OCMockObject+ASAdditions.h"
 

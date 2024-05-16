@@ -7,7 +7,7 @@
 //
 
 #import "ASTestCase.h"
-#import <AsyncDisplayKit/AsyncDisplayKit.h>
+#import "AsyncDisplayKit.h"
 
 @interface ASTransactionTests : ASTestCase
 

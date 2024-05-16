@@ -10,9 +10,9 @@
 
 #import <XCTest/XCTest.h>
 
-#import <AsyncDisplayKit/ASDisplayNode+Beta.h>
-#import <AsyncDisplayKit/ASTextNode2.h>
-#import <AsyncDisplayKit/ASTextNode+Beta.h>
+#import "ASDisplayNode+Beta.h"
+#import "ASTextNode2.h"
+#import "ASTextNode+Beta.h"
 
 #import "ASTestCase.h"
 

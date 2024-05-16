@@ -8,8 +8,8 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <AsyncDisplayKit/ASLayout.h>
-#import <AsyncDisplayKit/ASEditableTextNode.h>
+#import "ASLayout.h"
+#import "ASEditableTextNode.h"
 
 static BOOL CGSizeEqualToSizeWithIn(CGSize size1, CGSize size2, CGFloat delta)
 {

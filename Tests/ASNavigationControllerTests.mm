@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import <AsyncDisplayKit/AsyncDisplayKit.h>
+#import "AsyncDisplayKit.h"
 
 @interface ASNavigationControllerTests : XCTestCase
 @end

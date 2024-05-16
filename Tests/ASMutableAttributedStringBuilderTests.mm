@@ -9,7 +9,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import <AsyncDisplayKit/ASMutableAttributedStringBuilder.h>
+#import "ASMutableAttributedStringBuilder.h"
 
 @interface ASMutableAttributedStringBuilderTests : XCTestCase
 

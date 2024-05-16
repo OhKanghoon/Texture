@@ -9,7 +9,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import <AsyncDisplayKit/ASBasicImageDownloader.h>
+#import "ASBasicImageDownloader.h"
 
 @interface ASBasicImageDownloaderTests : XCTestCase
 

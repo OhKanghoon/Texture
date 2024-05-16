@@ -8,8 +8,8 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <AsyncDisplayKit/AsyncDisplayKit.h>
-#import <AsyncDisplayKit/ASCollectionView.h>
+#import "AsyncDisplayKit.h"
+#import "ASCollectionView.h"
 #import <stdatomic.h>
 
 #import "ASTestCase.h"
