@@ -31,7 +31,6 @@ let package = Package(
         .define("AS_USE_MAPKIT", to: "1"),
         .define("AS_USE_PHOTOS", to: "1"),
         .define("AS_USE_PHOTOS", to: "1"),
-        .define("AS_USE_ASSETS_LIBRARY", to: "1"),
         .define("AS_PIN_REMOTE_IMAGE", to: "1"),
       ]
     ),
