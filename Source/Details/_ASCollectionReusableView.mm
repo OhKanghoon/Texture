@@ -70,9 +70,9 @@
  * We don't need to do anything to bind the view model – the cell node
  * serves the same purpose.
  */
-#if __has_include(<IGListKit/IGListBindable.h>)
+#if __has_include(<IGListKit/IGListBindable.h>) || __has_include("IGListBindable.h")
 
-#import <IGListKit/IGListBindable.h>
+#import "IGListBindable.h"
 
 @interface _ASCollectionReusableView (IGListBindable) <IGListBindable>
 @end

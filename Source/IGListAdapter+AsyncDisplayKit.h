@@ -11,7 +11,7 @@
 
 #if AS_IG_LIST_KIT
 
-#import <IGListKit/IGListKit.h>
+#import "IGListKit.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

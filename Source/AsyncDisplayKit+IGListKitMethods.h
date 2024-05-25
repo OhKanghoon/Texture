@@ -14,7 +14,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "ASBaseDefines.h"
-#import <IGListKit/IGListKit.h>
+#import "IGListKit.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -8,7 +8,7 @@
 
 #if AS_IG_LIST_DIFF_KIT
 #import "ASLayout.h"
-#import <IGListDiffKit/IGListDiffKit.h>
+#import "IGListDiffKit.h"
 
 @interface ASLayout(IGListDiffKit) <IGListDiffable>
 @end
