@@ -15,23 +15,18 @@ let package = Package(
       targets: ["AsyncDisplayKit"]
     ),
   ],
-  dependencies: [
-    .package(url: "https://github.com/pinterest/PINRemoteImage.git", from: "3.0.0"),
-  ],
   targets: [
     .target(
       name: "AsyncDisplayKit",
-      dependencies: [
-        "PINRemoteImage",
-      ],
       path: "spm/Sources/AsyncDisplayKit",
       publicHeadersPath: "include",
       cSettings: [
+        .headerSearchPath("."),
         .define("AS_USE_VIDEO", to: "1"),
         .define("AS_USE_MAPKIT", to: "1"),
         .define("AS_USE_PHOTOS", to: "1"),
         .define("AS_USE_PHOTOS", to: "1"),
-        .define("AS_PIN_REMOTE_IMAGE", to: "1"),
+        .define("AS_PIN_REMOTE_IMAGE", to: "0"),
       ],
       linkerSettings: [
         .linkedFramework("AVFoundation"),
