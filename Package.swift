@@ -22,17 +22,10 @@ let package = Package(
       publicHeadersPath: "include",
       cSettings: [
         .headerSearchPath("."),
-        .define("AS_USE_VIDEO", to: "1"),
-        .define("AS_USE_MAPKIT", to: "1"),
-        .define("AS_USE_PHOTOS", to: "1"),
-        .define("AS_USE_PHOTOS", to: "1"),
+        .define("IG_LIST_COLLECTION_VIEW", to: "0"),
+        .define("AS_IG_LIST_KIT", to: "0"),
+        .define("AS_IG_LIST_DIFF_KIT", to: "0"),
         .define("AS_PIN_REMOTE_IMAGE", to: "0"),
-      ],
-      linkerSettings: [
-        .linkedFramework("AVFoundation"),
-        .linkedFramework("CoreMedia"),
-        .linkedFramework("MapKit"),
-        .linkedFramework("Photos")
       ]
     ),
   ],
